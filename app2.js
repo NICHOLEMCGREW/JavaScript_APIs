@@ -30,9 +30,22 @@ try {
     img.src = results.data.images.original.url;
 } catch (err) {
     console.error(err);
-    
 }
 }
 
+
+
+
+// fetch(GIPHY_URL + "?api_key=" + GIPHY_KEY + "&s=" + searchValue)
+// .then((response) => response.json())
+// .then((results) => {
+//     console.log(results);
+//     img.src = results.data.images.original.url;
+// })
+
+// .catch((err) => {
+//     console.error(err);
+//     });
+// });
 
 
